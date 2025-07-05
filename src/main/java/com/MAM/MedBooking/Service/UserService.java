@@ -22,7 +22,7 @@
         }
 
         public void insertUser() {
-            User user = new User(1,"amine","amine@mekki.tn");
+            User user = new User(2,"amine","amine@mekki.tn");
             userRepository.save(user);
         }
     }
