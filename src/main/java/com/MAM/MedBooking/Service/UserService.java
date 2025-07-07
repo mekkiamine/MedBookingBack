@@ -9,20 +9,20 @@
     @Service
     public class UserService {
 
-        @Autowired
-        private UserRepository userRepository;
-
-        @PostConstruct
-        public void init() {
-            try {
-                insertUser();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        public void insertUser() {
-            User user = new User(2,"amine","amine@mekki.tn");
-            userRepository.save(user);
-        }
+//        @Autowired
+//        private UserRepository userRepository;
+//
+//        @PostConstruct
+//        public void init() {
+//            try {
+//                insertUser();
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
+//
+//        public void insertUser() {
+//            User user = new User(2,"amine","amine@mekki.tn");
+//            userRepository.save(user);
+//        }
     }
